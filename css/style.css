@@ -1,3 +1,14 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* centraliza horizontal */
+    align-items: center;     /* centraliza vertical */
+}
+
 .titulo {
     text-align: center;
 }
@@ -13,6 +24,7 @@
 .container-calculadora {
     max-width: 600px;
     margin: 0 auto;
+    align-items: center;
 }
 
 .row div{
